@@ -1,0 +1,160 @@
+/* .nbr{
+    background-color: #2563EB;
+}
+.t{
+    color: #1F2937;
+}
+.accent{
+    color: #E5E7EB;
+}
+.crd{
+    background-color: antiquewhite;
+}
+/* theme */
+  .dark-mode { 
+      background-color: #121212 !important;
+      color: #ffffff !important;
+    }
+
+    .dark-mode .navbar {
+      background-color: #1f1f1f !important;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    }
+
+    .dark-mode .navbar-nav .nav-link {
+      color: #ffffff !important;
+    }
+
+    .dark-mode .carousel,
+    .dark-mode .card,
+    .dark-mode footer {
+      background-color: #1f1f1f !important;
+      color: white !important;
+      border-color: #333 !important;
+    }
+
+    .dark-mode .btn-outline-dark {
+      color: #fff;
+      border-color: #fff;
+    }
+
+    .theme-btn {
+      border: none;
+      background: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    .logo-img {
+      width: 200px;
+      transition: 0.3s ease-in-out;
+    }
+/* theme */
+/* Keep cards white in dark mode */
+body.dark-mode .card {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #ddd;
+}
+
+body.dark-mode .card .btn {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: none;
+}
+
+body.dark-mode .card .fs-2 {
+  filter: none;
+}
+.social-icon {
+  font-size: 1.2rem;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.social-icon:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.1);
+}
+a, button {
+  transition: all 0.3s ease;
+}
+
+button:hover, a:hover {
+  transform: scale(1.05);
+}  
+
+/* Student Resources Cards */
+.resource-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 12px;
+}
+
+.resource-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
+}
+
+.resource-card .btn {
+  transition: all 0.3s ease;
+}
+
+.resource-card .btn:hover {
+  transform: scale(1.1);
+}
+
+.learning-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  border: none;
+}
+
+.learning-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
+}
+
+.learning-card .btn {
+  transition: all 0.3s ease;
+}
+
+.learning-card .btn:hover {
+  transform: scale(1.1);
+}
+.internship-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  border: none;
+}
+
+.internship-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
+}
+
+.internship-card .btn {
+  transition: all 0.3s ease;
+}
+
+.internship-card .btn:hover {
+  transform: scale(1.1);
+}
+.employment-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  border: none;
+}
+
+.employment-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
+}
+
+.employment-card .btn {
+  transition: all 0.3s ease;
+}
+
+.employment-card .btn:hover {
+  transform: scale(1.1);
+}
