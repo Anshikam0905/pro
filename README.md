@@ -24,4 +24,5 @@ Since this is a static frontend project:
 No Node.js or server setup is needed.
 
 # Note
+All UI screenshots are located in the screenshots/ folder.
  All code is pushed to the master branch (not main).
